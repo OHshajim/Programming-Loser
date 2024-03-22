@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Card = ({ data }) => {
     console.log(data);
@@ -6,7 +5,7 @@ const Card = ({ data }) => {
 
     return (
         <div className='my-10'>
-            <div className="card  bg-base-100   shadow-xl md:flex-row">
+            <div className="card  bg-base-100   shadow-xl flex-row">
                 <figure><img src={thumbnail} alt="course" className='w-[400px]' /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
